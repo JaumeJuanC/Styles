@@ -1,0 +1,103 @@
+<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+    body {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+.pink-border-header {
+    line-height: 1;
+    margin-bottom: 0;
+margin-top: 0;
+    font-size: 36px;
+    color: #DDB0A1;
+
+    border-left: 4px solid pink;
+    border-bottom: 4px solid pink;
+    border-color: #DDB0A1;
+    /* border-top: none;
+    border-right: none;
+     padding-left: 10px;  optional: add padding for spacing */
+
+  }
+
+.monthly-focus {
+    background-color: #DDB0A1;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .monthly-focus h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .monthly-focus ul {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .monthly-focus li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+.text-greyfocus {
+      background-color: #F8F8F8;
+      padding: 20px;
+    font-size: 16px;
+      border-radius: 5px;
+    }
+
+.text-pinkborder {
+      background-color: #FFFFFF;
+      padding: 20px;
+    font-size: 16px;
+      border-radius: 5px;
+      border: 2px solid grey;
+      border-color: #DDB0A1;
+    }
+
+
+.image-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px solid grey;
+      border-color: #F8F8F8;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .image-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .image-card p {
+      margin-top: 10px;
+      text-align: center;
+    }
+</style>
